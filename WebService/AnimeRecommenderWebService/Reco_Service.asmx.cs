@@ -1,4 +1,14 @@
-﻿using System;
+﻿////////////////////////////////////////////////////////////////////////////
+//
+//  Anime recommender web SOAP service - SOAP service that recommends anime
+//  movies based on user anime watch history.
+//
+//  Course : TCSS 559A - Web Services
+//  Team members : Suganya Jeyaraman, Brandon Olson, Ramya Kumar
+//  
+/////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -61,7 +71,6 @@ namespace AnimeRecommenderWebService
 
             //To get the index of top fives in the sorted array of tuples
             int[] order = new int[greatestfives];
-
 
             for (int j = 0; j < greatestfives; j++)
             {

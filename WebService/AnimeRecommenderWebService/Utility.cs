@@ -1,4 +1,18 @@
-﻿using System;
+﻿////////////////////////////////////////////////////////////////////////////
+//
+//  Anime recommender web SOAP service - SOAP service that recommends anime
+//  movies based on user anime watch history.
+//
+//  Course : TCSS 559A - Web Services
+//  Team members : Suganya Jeyaraman, Brandon Olson, Ramya Kumar
+//
+//  Utility.cs - Helper class that contains methods to load CSV file in
+//  string array and  methods to slice rows and columns from array.
+//
+/////////////////////////////////////////////////////////////////////////////
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
