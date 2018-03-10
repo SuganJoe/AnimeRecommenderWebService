@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recoconsoleapp", "TestConsoleApp\Recoconsoleapp\Recoconsoleapp.csproj", "{279F5404-0BAE-4EC3-BF1F-A7CCD1C85D05}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AnimeRecommenderWebSite", "AnimeRecommenderWebSite\", "{9020321C-154C-4BA8-8029-57741D1B47D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63696"
+		Debug.AspNetCompiler.PhysicalPath = "AnimeRecommenderWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63696\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63696"
+		Release.AspNetCompiler.PhysicalPath = "AnimeRecommenderWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63696\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63696"
+		SlnRelativePath = "AnimeRecommenderWebSite\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeRecommenderWebService", "WebService\AnimeRecommenderWebService\AnimeRecommenderWebService.csproj", "{4004DF2B-10C9-4A70-A118-EDE9CD2BE0FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{279F5404-0BAE-4EC3-BF1F-A7CCD1C85D05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279F5404-0BAE-4EC3-BF1F-A7CCD1C85D05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279F5404-0BAE-4EC3-BF1F-A7CCD1C85D05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279F5404-0BAE-4EC3-BF1F-A7CCD1C85D05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9020321C-154C-4BA8-8029-57741D1B47D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9020321C-154C-4BA8-8029-57741D1B47D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9020321C-154C-4BA8-8029-57741D1B47D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9020321C-154C-4BA8-8029-57741D1B47D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4004DF2B-10C9-4A70-A118-EDE9CD2BE0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4004DF2B-10C9-4A70-A118-EDE9CD2BE0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4004DF2B-10C9-4A70-A118-EDE9CD2BE0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4004DF2B-10C9-4A70-A118-EDE9CD2BE0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
