@@ -1,4 +1,16 @@
-﻿using System;
+﻿////////////////////////////////////////////////////////////////////////////
+//
+//  Anime recommender web SOAP service - SOAP service that recommends anime
+//  movies based on user anime watch history.
+//
+//  Course : TCSS 559A - Web Services
+//  Team members : Suganya Jeyaraman, Brandon Olson, Ramya Kumar
+//
+//  Default.aspx.cs - Anime Recommender User Interface
+//
+/////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -13,7 +25,7 @@ public partial class _Default : System.Web.UI.Page
     {
 
     }
-
+    // On Search button click input user's watch history and recommendations are fetched
     protected void Button1_Click(object sender, EventArgs e)
     {
         watchHistoryContainer.Visible = true;
